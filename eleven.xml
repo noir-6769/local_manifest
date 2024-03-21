@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="noir"
+           fetch="https://github.com/noir-6769"
+           revision="eleven"/> 
+
+ <!-- Device Trees -->
+  <project path="device/xiaomi/lava" name="device_xiaomi_lava" remote="noir" revision="eleven"/>
+  <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="noir" revision="eleven"/>
+ 
+ <!-- Kernel -->
+  <project path="kernel/xiaomi/mt6768" name="kernel_xiaomi_mt6768" remote="noir"/>
+
+ <!-- Vendor Trees -->
+  <project path="vendor/xiaomi/lava" name="vendor_xiaomi_lava" remote="noir"/>
+  
+ <!-- Extras -->
+  <project path="device/mediatek/sepolicy_vndr" name="mediatek_sepolicy_vndr" remote="noir" revision="eleven"/>
+
+</manifest>
