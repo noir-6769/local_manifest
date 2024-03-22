@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="sarveshrulz"
+           fetch="https://github.com/sarveshrulz"
+           revision="v185"/>
   <remote  name="noir"
            fetch="https://github.com/noir-6769"
            revision="eleven"/> 
@@ -14,6 +17,7 @@
 
  <!-- Vendor Trees -->
   <project path="vendor/xiaomi/lava" name="vendor_xiaomi_lava" remote="noir"/>
+  <project path="vendor/aeonax/ANXCamera" name="android_vendor_aeonax_ANXCamera" remote="sarveshrulz"/>
   
  <!-- Extras -->
   <project path="device/mediatek/sepolicy_vndr" name="mediatek_sepolicy_vndr" remote="noir" revision="eleven"/>
